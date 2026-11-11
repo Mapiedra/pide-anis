@@ -46,6 +46,7 @@ para ocultar un producto. Los cambios se ven al momento, sin volver a desplegar.
 | `ADMIN_PASSWORD` | la contraseña que quieras para `/admin` |
 | `SESSION_SECRET` | una cadena larga aleatoria (p. ej. de `openssl rand -hex 32` o un generador de contraseñas) |
 | `CLOSE_AT` | `2026-12-03T15:00:00+01:00` (opcional, es el valor por defecto) |
+| `SITE_URL` | opcional: solo si usas un dominio propio, p. ej. `https://anis.midominio.es` (para la imagen al compartir el enlace) |
 
 4. **Deploy**. Comparte la URL `https://<tu-proyecto>.vercel.app` con los compañeros.
 
