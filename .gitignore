@@ -1,0 +1,12 @@
+node_modules
+.next
+.data
+.env*.local
+.env
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+# Copia original del catálogo (la web usa public/catalogo.pdf)
+/catálogo-altamirano_WEB.pdf
+.claude
